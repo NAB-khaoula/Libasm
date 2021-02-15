@@ -1,15 +1,15 @@
-NAME = libasm.a
+NAME = ./srcs/libasm.a
 
 CC = nasm
 
 CFLAGS = -f macho64
 
-SRC =	ft_read.s	\
-		ft_strcmp.s	\
-		ft_strcpy.s	\
-		ft_strlen.s	\
-		ft_write.s	\
-		ft_strdup.s
+SRC =	./srcs/ft_read.s	\
+		./srcs/ft_strcmp.s	\
+		./srcs/ft_strcpy.s	\
+		./srcs/ft_strlen.s	\
+		./srcs/ft_write.s	\
+		./srcs/ft_strdup.s
 
 OBJECTS = $(SRC:.s=.o)
 
