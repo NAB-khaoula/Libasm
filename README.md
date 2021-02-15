@@ -21,7 +21,7 @@ Project is created with:
 $ cd ../name_of_forlder
 $ brew install nasm
 $ make
-$ gcc main.c libasm.a  /* don't forget to uncomment the test! */
+$ gcc ./srcs/main.c ./srcs/libasm.a  /* don't forget to uncomment the test! */
 $ ./a.out
 ```
 
